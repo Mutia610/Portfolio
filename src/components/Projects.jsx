@@ -21,6 +21,10 @@ const Projects = (props) => {
       .catch((err) => err);
   }, []);
 
+  const sortedProjects = data?.projects
+    ? [...data.projects].sort((a, b) => b.id - a.id)
+    : [];
+
   const numberOfItems = showMore && data ? data.projects.length : 6;
 
   return (
@@ -30,17 +34,17 @@ const Projects = (props) => {
         <div className="section-content-container">
           <Fade triggerOnce>
             <div className="bento">
-              {data.projects?.slice(0, numberOfItems).map((project, index) => (
+              {sortedProjects.slice(0, numberOfItems).map((project, index) => (
                 <ProjectCard
-                  key={project.title}
+                  key={project.id}
                   project={project}
-                  featured={index === 0}
+                  featured={project.type === 'web'}
                 />
               ))}
             </div>
           </Fade>
 
-          {!showMore && data.projects?.length > numberOfItems && (
+          {!showMore && sortedProjects.length > numberOfItems && (
             <div className="projects-more">
               <button
                 type="button"

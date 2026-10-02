@@ -28,6 +28,7 @@ function About(props) {
           <Fade triggerOnce>
             <div className="bento">
               <div className="tile about-bio-tile span-4 rspan-2">
+                <h1>Hello All! I'm Mutia <span class="wave">👋</span></h1>
                 <ReactMarkdown>{data.about}</ReactMarkdown>
               </div>
               {data?.imageSource && (

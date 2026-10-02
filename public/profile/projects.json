@@ -1,150 +1,234 @@
 {
     "projects" : [
         {
-            "image" : "images/projects/portfolio-poster.png",
-            "title": "Dev Portfolio",
-            "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
+            "id" : 1,
+            "type" : "mobile",
+            "date_created" : "April 2021",
+            "image" : "images/projects/mobile-plantshop.png",
+            "title": "Plant Shop",
+            "bodyText": "- Plant shop CRUD application\n -  View, add, modify, and delete plant data and plant categories\n - Created on April 2021",
             "links": [
                 {
                     "text": "GitHub",
                     "href": "https://github.com/mayankagarwal09/dev-portfolio"
                 },
                 {
-                    "text": "Live",
+                    "text": "Documentation",
                     "href": "https://mayankagarwal.me"
                 }
             ],
             "tags" : [
-                "React",
-                "Portfolio",
-                "JavaScript"
+                "Android",
+                "Kotlin",
+                "Retrofit",
+                "JSON",
+                "XML",
+                "PHP Backend",
+                "API",
+                "MySQL"
             ]
         },
         {
-            "image" : "images/projects/caaring-poster.png",
-            "title": "Caaring -  Cab Share App",
-            "bodyText": "- A Cab Sharing web app made using **Django** for **VIT** Students. People can create a new cab or request to join an existing cab.\n - Added User authentication and password reset using **SendGrid**.\n - Deployed on **heroku** using **gunicorn**.",
+            "id" : 2,
+            "type" : "mobile",
+            "date_created" :"May 2021",
+            "image" : "images/projects/mobile-dsruput.png",
+            "title": "D'SRUPUT",
+            "bodyText": "- Mobile application to ordering D'SRUPUT menu items\n -  Equipped with GPS for current location and distance calculation to the nearest outlet\n - Created on May 2021",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Caaring"
+                    "href": "https://github.com/mayankagarwal09/dev-portfolio"
                 },
                 {
-                    "text": "Live",
-                    "href": "http://caaring.herokuapp.com"
+                    "text": "Documentation",
+                    "href": "https://mayankagarwal.me"
                 }
             ],
             "tags" : [
-                "Python",
-                "Django",
+                "Android",
+                "Kotlin",
+                "Retrofit",
+                "JSON",
+                "XML",
+                "GPS Current Location",
+                "PHP Backend",
+                "API",
+                "MySQL"
+            ]
+        },
+        {
+            "id" : 3,
+            "type" : "mobile",
+            "date_created" :"Oktober 2021",
+            "image" : "images/projects/mobile-sisegar.png",
+            "title": "SISEGAR",
+            "bodyText": "- Application for purchasing agricultural produce\n -  Integrated with Firebase to send email verifications\n - Integrated with the 'Raja Ongkir' API for shipping\n - Created on Oktober 2021",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/mayankagarwal09/dev-portfolio"
+                },
+                {
+                    "text": "Documentation",
+                    "href": "https://mayankagarwal.me"
+                }
+            ],
+            "tags" : [
+                "Android",
+                "Kotlin",
+                "Retrofit",
+                "JSON",
+                "XML",
+                "Firebase"
+            ]
+        },
+        {
+            "id" : 4,
+            "type" : "web",
+            "date_created" :"Oktober 2021",
+            "image" : "images/projects/web-sisegar.png",
+            "title": "SISEGAR - Web Admin",
+            "bodyText": "- Sisegar web application for admins and sellers\n -  Equipped with features for a dashboard, product data, customer orders, shipping, payments, and PDF downloads\n - User level authorization\n - Created on Oktober 2021",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/mayankagarwal09/dev-portfolio"
+                },
+                {
+                    "text": "Documentation",
+                    "href": "https://mayankagarwal.me"
+                }
+            ],
+            "tags" : [
+                "Web",
+                "Laravel",
+                "PHP",
                 "BootStrap",
-                "SendGrid",
-                "Heroku",
-                "Gunicorn",
-                "VIT"
+                "JavaScript",
+                "MySQL"
             ]
         },
         {
-            "image" : "images/projects/quiet-hours-poster.jpg",
-            "title": "Quiet Hours App",
-            "bodyText": "- An Android App that **automatically silences** your phone during class hours, designed for **VITians**.\n - Option to select class **slots** and **custom time**.\n - Option to put on Vibrate instead of Silent.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/QuietHours-Android"
-                }
-            ],
+            "id" : 5,
+            "type" : "mobile",
+            "date_created" :"2022",
+            "image" : "images/projects/mobile-scf.png",
+            "title": "Crowdfunding App",
+            "bodyText": "- Developed new feature & UI\n - Engineered dynamic forms with complex data validation\n - Real-time data using Websockets\n -  Integrated DOKU Payment Gatewat\n - Implemented Privy e-Signature SDK\n - Firebase Notification\n - Bug fixing & app optimization",
+            "links": [],
             "tags" : [
-                "Java",
                 "Android",
-                "Alarm Manager",
-                "VIT"
-            ]
-        },
-        {
-            "title": "Secure Chat App",
-            "bodyText": "- An Android App that allows users to send texts in real time.\n - End to End encryption using **RSA** Algorithm.\n - Uses **Firebase** database to store texts.\n - Secured with **Fingerprint** lock.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/SecureChatApp"
-                }
-            ],
-            "tags" : [
                 "Java",
-                "Android",
+                "XML",
+                "API",
+                "Retrofit",
+                "JSON",
+                "MVVM",
+                "Dagger 2",
+                "Websocket",
                 "Firebase",
-                "RSA"
+                "ROOM",
+                "Youtube Player API",
+                "Webview"
             ]
         },
         {
-            "title": "MVVM Sample App",
-            "bodyText": "- An Android App that loads data from mock API and show in both **LinearLayout** and **GridLayout RecyclerView**.\n - Offline support using **Room** DB and **NetworkBoundResource**.\n - Uses the **MVVM** architecture.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/mvvm-sample-app"
-                }
-            ],
+            "id" : 6,
+            "type" : "mobile",
+            "date_created" :"2022",
+            "image" : "images/projects/mobile-trading.png",
+            "title": "Securities 1 App",
+            "bodyText": "- Translated high-fidelity Figma mockups using Android XML\n - Engineered seamless multi-screen navigation\n - Handled layout adaptability and view states",
+            "links": [],
             "tags" : [
-                "Kotlin",
                 "Android",
-                "MVVM",
-                "Room",
-                "Coroutines",
-                "Flow",
-                "Hilt-Dagger",
-                "NetworkBoundResource"
-            ]
-        },
-        {
-            "title": "Feed List App",
-            "bodyText": "- An Android App that loads list of feeds from a **paginated** API and shows in a RecyclerView.\n - Uses the **MVVM** architecture.\n - Uses **Paging 3** library along with other Architecture Components.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Paginated-App-Feeds-List"
-                }
-            ],
-            "tags" : [
                 "Kotlin",
+                "Retrofit",
+                "JSON",
+                "XML"
+            ]
+        },
+        {
+            "id" : 7,
+            "type" : "mobile",
+            "date_created" :"2022",
+            "image" : "images/projects/mobile-pensionfund.png",
+            "title": "Pension Fund App",
+            "bodyText": "- Developed new feature & UI\n - Engineered dynamic forms with complex data validation\n",
+            "links": [],
+            "tags" : [
                 "Android",
+                "Java",
+                "XML",
+                "API",
+                "Retrofit",
+                "JSON",
                 "MVVM",
-                "Paging 3",
-                "Coroutines",
-                "Flow"
+                "Dagger 2",
+                "Firebase",
+                "ROOM"
             ]
         },
         {
-            "title": "Task Tracker",
-            "bodyText": "- A simple Task Tracker web app made with **Angular 12**.\n - Uses **mock JSON server** to get, add, delete or update tasks.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/task-tracker-app"
-                }
-            ],
+            "id" : 8,
+            "type" : "mobile",
+            "date_created" :"2024",
+            "image" : "images/projects/mobile-securities.png",
+            "title": "Securities App 2",
+            "bodyText": "- Developed UI and custom components\n - Engineered Real-Time Data Streaming using RabbitMQ\n - Developed Animated & Live-Updating Charts\n - Implemented Time-Range Data Filtering & Tables",
             "tags" : [
-                "TypeScript",
-                "Angular 12",
-                "JavaScript"
+                "Android",
+                "Kotlin",
+                "XML",
+                "MVVM",
+                "Dagger 2",
+                "RabbitMQ",
+                "Firebase",
+                "ROOM",
+                "MPAndroidChart"
             ]
         },
         {
-            "title": "Image Encryption/Decryption",
-            "bodyText": "- A Web App for Image Encryption and Decryption made in **Django**.\n - Uses **SDES** algorithm for encryption/decryption.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/img-encrypt-sdes"
-                }
-            ],
+            "id" : 9,
+            "type" : "mobile",
+            "date_created" :"2024",
+            "image" : "images/projects/mobile-salesmanretail.png",
+            "title": "Salesman Retail App",
+            "bodyText": "- Enhanced Android KPI Calculation Logic\n - Developed Java Backend APIs\n - Debugged & Resolved Stored Procedure Issues\n - End-to-End Data Pipeline Integration",
+            "links": [],
             "tags" : [
-                "Python",
-                "Django",
-                "SDES",
-                "Cryptography"
+                "Android, API",
+                "Java",
+                "XML",
+                "MVP",
+                "SQLite",
+                "API",
+                "ZK Framework",
+                "Store Procedure",
+                "Oracle SQL Developer"
+            ]
+        },
+        {
+            "id" : 10,
+            "type" : "mobile",
+            "date_created" :"2024",
+            "image" : "images/projects/mobile-salesmanmd.png",
+            "title": "Salesman Merchandiser App",
+            "bodyText": "- Resolved Critical Transaction Bug\n - Engineered Core KPI Calculation Engine (Data)\n - Pre-Deployment Quality Assurance (QA)",
+            "links": [],
+            "tags" : [
+                "Android, Data",
+                "Java",
+                "XML",
+                "MVP",
+                "SQLite",
+                "Store Procedure",
+                "Oracle SQL Developer",
+                "POS Devices",
+                "Bluetooth Printing"
             ]
         }
+        
     ]
 }

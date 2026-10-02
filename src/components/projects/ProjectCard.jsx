@@ -23,7 +23,8 @@ const ProjectCard = ({ project, featured = false }) => {
       </div>
 
       <div className="project-card__footer">
-        {project?.links?.length > 0 && (
+         {/* Sementara di comment sampai github & documentasi rapi */}
+        {/* {project?.links?.length > 0 && (
           <div className="project-card__links">
             {project.links.map((link) => (
               <a
@@ -39,7 +40,7 @@ const ProjectCard = ({ project, featured = false }) => {
               </a>
             ))}
           </div>
-        )}
+        )} */}
         {project?.tags?.length > 0 && (
           <div className="project-card__tags">
             {project.tags.map((tag) => (

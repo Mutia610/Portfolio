@@ -1,19 +1,22 @@
 {
     "education":[
         {
-            "title": "Jun 20XX - Jun 20YY",
-            "cardTitle": "B.Tech, Computer Science",
-            "cardSubtitle":"XYZ University, City",
-            "cardDetailedText": "CGPA - 9.5",
+            "title": "Feb 2023 - Jan 2025",
+            "cardTitle": "Bachelor of Science in Information System",
+            "cardSubtitle":"Bina Nusantara University",
+            "cardDetailedText": "GPA : 3.95",
             "icon" : {
-                "src": "images/education/lorem-ipsum.png"
+                "src": "images/education/binus.png"
             }
         },
         {
-            "title": "Apr 20XX",
-            "cardTitle": "High School",
-            "cardSubtitle":"ABC School, City",
-            "cardDetailedText": "Marks - 95%"
+            "title": "Sep 2018 - Okt 2021",
+            "cardTitle": "Associate Degree in Informatics Management",
+            "cardSubtitle":"Politeknik Negeri Padang",
+            "cardDetailedText": "GPA : 3.81",
+            "icon" : {
+                "src": "images/education/pnp.png"
+            }
         }
     ]
 }

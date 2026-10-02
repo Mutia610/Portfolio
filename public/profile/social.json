@@ -2,19 +2,15 @@
     "social": [
         {
             "network" : "linkedin",
-            "href": "https://linkedin.com/"
+            "href": "https://www.linkedin.com/in/mutia-hulwah-nur-alif-4046a6203/"
         },
         {
             "network" : "github",
-            "href": "https://github.com/mayankagarwal09"
-        },
-        {
-            "network" : "leetcode",
-            "href": "https://leetcode.com/"
+            "href": "https://github.com/Mutia610"
         },
         {
             "network" : "email",
-            "href": "mailto:test@test.com"
+            "href": "mailto:mutiahulwahnur@gmail.com"
         }
     ]
 }

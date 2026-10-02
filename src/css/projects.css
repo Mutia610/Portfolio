@@ -115,6 +115,12 @@
   padding: 0.3em 0.75em;
 }
 
+.project-card__tags .project-tag:first-child {
+  color: var(--accent);
+  background: var(--accent-soft);
+  border-color: var(--accent);
+}
+
 .projects-more {
   display: flex;
   justify-content: center;
