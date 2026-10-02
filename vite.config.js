@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/portfolio/'  // Set the base path for the application to '/portfolio/'
+  base: '/portfolio/',  // Set the base path for the application to '/portfolio/'
 
   // server: {
   //   port: 3000,
