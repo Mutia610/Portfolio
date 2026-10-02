@@ -1,0 +1,22 @@
+{
+    "education":[
+        {
+            "title": "Feb 2023 - Jan 2025",
+            "cardTitle": "Bachelor of Science in Information System",
+            "cardSubtitle":"Bina Nusantara University",
+            "cardDetailedText": "GPA : 3.95",
+            "icon" : {
+                "src": "images/education/binus.png"
+            }
+        },
+        {
+            "title": "Sep 2018 - Okt 2021",
+            "cardTitle": "Associate Degree in Informatics Management",
+            "cardSubtitle":"Politeknik Negeri Padang",
+            "cardDetailedText": "GPA : 3.81",
+            "icon" : {
+                "src": "images/education/pnp.png"
+            }
+        }
+    ]
+}

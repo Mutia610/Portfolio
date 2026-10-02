@@ -1,0 +1,41 @@
+{
+    "experiences": [
+        {
+            "title": "Application Development Specialist",
+            "subtitle": "PT. Surya Madistrindo (Jakarta)",
+            "workType": "Full-time",
+            "workDescription": [
+                "Designed and implemented automated Stored Procedures and database engines for sales KPI processing, significantly improving calculation accuracy and efficiency.",
+                "Developed Java-based Android applications using the MVP architecture and integrating backend web services (ZK Framework), resulting in a clean, modular, and responsive code structure.",
+                "Conducted root cause analysis and resolved critical application bugs, achieving zero post-deployment defects and maintaining operational system stability.",
+                "Conducted software quality assurance through test case execution and UAT prior to deployment.",
+                "Collaborated closely with cross-functional teams (System Analyst, Business Analysts, Developers, PM) to translate business requirements into technical specifications, ensuring on-time project deliveries."
+            ],
+            "dateText": "08/2024 – 10/2025"
+        },
+        {
+            "title": "Android Developer",
+            "subtitle": "PT. Kalacakra Teknologi (Jakarta)",
+            "workType": "Full-time",
+            "workDescription": [
+                "Engineered and maintained native Android applications using Java and Kotlin using MVVM patterns, translating complex business logic into clean, scalable mobile solutions.",
+                "Implemented real-time data streaming, event-driven architectures, and offline-first capabilities leveraging WebSockets, RabbitMQ, Firebase, and Room Database.",
+                "Diagnosed and resolved complex application defects through root-cause analysis, consistently optimizing app performance and maintaining system stability.",
+                "Collaborated closely with cross-functional teams (UI/UX, Backend, QA, System Analyst, Business Analysts, PMO) across the full SDLC to ensure high-quality, on-time project delivery."
+            ],
+            "dateText": "01/2022 – 07/2024"
+        },
+        {
+            "title": "Android Programmer",
+            "subtitle": "CV. Mediatama Web Indonesia (Padang)",
+            "workType": "Intern",
+            "workDescription": [
+                "Designed App UI, databases, and created APIs with PHP Native.",
+                "Developed Android mobile applications using the Kotlin programming language with current location access feature and distance calculation.",
+                "Made a manual guides for using the application.",
+                "Be mentors on the 'Microsoft Office' private course."
+            ],
+            "dateText": "02/2021 – 05/2021"
+        }
+    ]
+}
